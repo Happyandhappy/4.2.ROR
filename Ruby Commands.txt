@@ -1,0 +1,5 @@
+
+rails g model Post title:String body:text   // create model -> db/migreate
+rails s   // run server
+rake db:migrate  // migrate db
+rake routes  /// can see urls
